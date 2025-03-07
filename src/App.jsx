@@ -1,16 +1,23 @@
-import { useState } from "react";
-import Title from "./Title";
-import Menu from "./Menu";
 
+import Title from "./Title";
+import AppProvider from "./context";
 
 function App  ()  {
 
 
   return (
 
-  <>
-  <h2>our menu</h2>
-  </>
+   
+<AppProvider>
+
+    <main>
+      <section className="menu">   
+        <Title  />
+      </section>
+    </main>
+
+</AppProvider>
+
 
 
 
