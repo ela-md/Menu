@@ -2,6 +2,7 @@
 import Title from "./Title";
 import Menu from "./Menu";
 import AppProvider from "./context";
+import Categories from "./Categoies";
 
 function App  ()  {
 
@@ -11,6 +12,7 @@ function App  ()  {
     <main>
       <section className="menu"> 
         <Title  />
+        <Categories />
         <Menu  />
       </section>
     </main>
